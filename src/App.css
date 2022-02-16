@@ -1,0 +1,14 @@
+.nav{
+/* border-bottom: 1 px solid gray ; */
+font-size: 20px;
+padding: 15px;
+box-shadow: 0 5px 0 0 rgba(31, 30, 30, 0.06);
+margin-bottom: 25px;
+text-decoration: none;
+}
+/* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(191,191,255,1) 35%, rgba(0,212,255,1) 100%); */
+body{
+    background: rgb(206, 213, 216);
+    
+}

@@ -2,6 +2,7 @@ import searchMovies from '../../Utils/searchMovies';
 import  { useEffect, useState} from 'react';
 import { useHistory } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
+import './SearchMovies.css'
 
 const SearchMovies = ({setMoviesonSubmit}) => {
     const history = useHistory()
@@ -28,7 +29,7 @@ const SearchMovies = ({setMoviesonSubmit}) => {
     autoComplete="off"
     autoFocus
     placeholder="Search films"/>
-    <button type='submit'>Search</button>
+    <button type='submit'className='btn' >Search</button>
     </form>
     );
 }

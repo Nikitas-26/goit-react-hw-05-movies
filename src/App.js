@@ -7,12 +7,12 @@ const MoviesPage = lazy(() => import("./pages/MoviesPage"));
 const MovieDetailsPage = lazy(() => import("./pages/MovieDetailsPage"));
 function App() {
   return (
-    <div className="App">
-      <nav>
-        <NavLink activeStyle={{ color: "green" ,marginRight: '10px' }} to="/" exact>
+    <div>
+      <nav className='nav'>
+        <NavLink activeStyle={{ color: "red" ,marginRight: '10px'}} to="/" exact>
           Home
         </NavLink>
-        <NavLink activeStyle={{ color: "green" }} to="/movies">
+        <NavLink activeStyle={{ color: "red",marginLeft: '10px'}} to="/movies">
           Movies
         </NavLink>
       </nav>

@@ -1,0 +1,10 @@
+.input{
+    /* box-shadow:0 0 15px 4px rgba(0,0,0,0.06); */
+ padding-top: 10px;
+ padding-bottom: 10px;
+    padding-right: 55px;
+    margin-right: 5px;
+}
+.btn{
+    padding: 10px;
+}

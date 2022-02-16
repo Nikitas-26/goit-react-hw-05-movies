@@ -1,0 +1,47 @@
+.wrapp{
+    display: flex;
+    padding: 5px;
+}
+.disc{
+    margin-left: 15px;
+}
+p,h2,ul{
+margin: 0;
+padding: 0;
+}
+.titleWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    margin-right: 5px;
+    align-items: center;
+}
+.peshka{
+    align-items: center;
+}
+.userScore{
+font-size: 20px;
+margin-bottom: 15px;
+
+}
+.userOverview{
+margin-top: 5px;
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 15px;
+}
+.genres{
+    list-style: none;
+    display: flex;
+}
+.genre{
+    margin-right: 10px;
+}
+
+.link{
+    margin-top: 15px;
+    margin-right: 15px;
+    font-size: 20px
+}
