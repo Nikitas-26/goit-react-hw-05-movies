@@ -11,7 +11,7 @@ const params=useParams()
     },[id])
     return (<ul className="cast">{cast.map(item=>{
         return <li className="castItem" key={item.id}>
-            <img width='250px' src={`https://image.tmdb.org/t/p/w400/${item.profile_path}`} />
+            <img width='250px' src={`https://image.tmdb.org/t/p/w400/${item.profile_path}`} alt={item.name} />
             <p>{item.name}</p>
             <p>{item.character}</p>
         </li>

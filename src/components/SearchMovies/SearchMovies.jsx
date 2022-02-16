@@ -16,7 +16,7 @@ const SearchMovies = ({setMoviesonSubmit}) => {
     }
     useEffect(()=>{
         searchMovies(params).then( data => setMoviesonSubmit(data.results))
-    },[params])
+    },[params,setMoviesonSubmit])
     const onSubmit =(e) => {
         e.preventDefault()
         history.push({ search: "?query=" + value })
